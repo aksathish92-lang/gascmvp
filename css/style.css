@@ -10,13 +10,24 @@ body {
 }
 
 .hero {
-    background: url('../images/banner.jpg') center/cover no-repeat;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url('../images/banner.jpg');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     height: 500px;
-    color: white;
+
     display: flex;
     align-items: center;
     justify-content: center;
+
     text-align: center;
+    color: white;
 }
 
 .hero h1 {
