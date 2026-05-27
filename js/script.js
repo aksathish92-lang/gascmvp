@@ -1,0 +1,1 @@
+console.log("Government College Website Loaded Successfully");
